@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/tree/tree"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Growth",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#13227a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/icons/icon_home.png",
+        "selectedIconPath": "/images/icons/icon_home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tree/tree",
+        "iconPath": "/images/icons/icon_tree.png",
+        "selectedIconPath": "/images/icons/icon_tree_active.png",
+        "text": "技能树"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "/images/icons/icon_me.png",
+        "selectedIconPath": "/images/icons/icon_me_active.png",
+        "text": "关于"
+      }
+    ]
+  }
+}

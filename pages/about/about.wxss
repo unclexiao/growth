@@ -1,0 +1,6 @@
+image {
+  margin-right: 15rpx;
+  vertical-align: middle;
+  width: 70rpx;
+  height: 70rpx;
+}

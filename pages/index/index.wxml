@@ -1,0 +1,24 @@
+
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="row flex">
+    <view class="item flex-column flex-xy flex-grow-1" hover-class="item-hover"  bindtap="clickHandler">
+      <text class="iconfont icon-guide"></text>
+      <text class="txt">学习路线</text>
+    </view>
+    <view class="item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="clickHandler">
+      <text class="iconfont icon-code"></text>
+      <text class="txt">练手项目</text>
+    </view>
+  </view>
+  <view class="row flex">
+    <view class="item flex-column flex-xy flex-grow-1" hover-class="item-hover"  bindtap="clickHandler">
+      <text class="iconfont icon-tool"></text>
+      <text class="txt">高效工具</text>
+    </view>
+    <view class="item flex-column flex-xy flex-grow-1" hover-class="item-hover"  bindtap="clickHandler">
+      <text class="iconfont icon-read"></text>
+      <text class="txt">文章精选</text>
+    </view>
+  </view>
+</view>
