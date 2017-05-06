@@ -4,23 +4,23 @@ Page({
     members: [
       {
         name: 'phodal',
-        icon: '/images/members/phodal.jpg'
+        icon: '/images/members/phodal.jpg',
+        desc: '待我代码编成，娶你为妻可好'
       },
       {
         name: 'unclexiao',
-        icon: '/images/members/unclexiao.jpg'
+        icon: '/images/members/unclexiao.jpg',
+        desc: '用最意思的方式提高认知，根本停不下来'
       },
       {
         name: 'oathsign',
-        icon: '/images/members/oathsign.jpg'
+        icon: '/images/members/oathsign.jpg',
+        desc: '软件工程师/全栈工程师/冒险家/死宅'
       },
       {
-        name: 'ivan',
-        icon: '/images/members/ivan.jpg'
-      },
-      {
-        name: 'luodayou',
-        icon: '/images/members/luodayou.jpg'
+        name: 'ivanberry',
+        icon: '/images/members/ivan.jpg',
+        desc: '矿物加工专业出生，热爱前端，行进在精通CSS的路上，即将成为JavaScript大神'
       }
     ]
   },

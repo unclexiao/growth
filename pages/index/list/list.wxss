@@ -1,0 +1,5 @@
+/* pages/index/list/list.wxss */
+
+.weui-cell-active {
+  background-color: #ebebeb;
+}

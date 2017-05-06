@@ -1,0 +1,19 @@
+/* pages/index/article/article.wxss */
+
+page {
+  padding: 40rpx 30rpx;
+  box-sizing: border-box;
+}
+
+.item {
+  border: 1px solid rgba(153, 153, 153, 0.2);
+  border-radius: 30rpx;
+  padding: 20rpx;
+  margin-bottom: 30rpx;
+  background-color: #fff;
+}
+
+.title {
+  color: #159cd4;
+  line-height: 2;
+}

@@ -4,3 +4,11 @@ image {
   width: 70rpx;
   height: 70rpx;
 }
+
+.icon-github{
+  margin-right: 10rpx;
+}
+
+.weui-panel:after {
+  border-bottom: 0;
+}

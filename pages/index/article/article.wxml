@@ -1,0 +1,31 @@
+<view class="item">
+  <view class="title">入门篇</view>
+  <view class="content">
+    在我理解下的基础知识，就是我们可以写一些基本的样式，并能对页面的元素进行操作。举例来说，就是我们用Spring和JSP写了一个博客，然后我们可以用jQuery来对页面进行一些简单的操作，并可以调用一些API。因此，我们需要基本的HTML / CSS知识。只是要写好CSS并不是一件简单的事，这需要很多实战经验。随后，我们还需要有JavaScript的经验，要不怎么做前端呢？同时，我们还需要对DOM有一些基础的了解，才能做一些基本的操作，如修改颜色等等。在这种情况下，最简单的方案就是使用jQuery这样的工具。不过，如果可以自己操作DOM是再好不过的了。
+  </view>
+</view>
+<view class="item">
+  <view class="title">前端特定</view>
+  <view class="content">
+    这一点上和大部分语言的项目一样，我们需要使用版本管理软件，如git、svn，又或者是一些内部的工具。总之你肯定要有一个，而不是 2016.07.31.zip这种文件。然后，你还需要一些依赖管理工具，对于那些使用Webpack、Browserify来将代码编写成前端代码的项目来说，npm还是挺好用的。不过就个人来说，对于传统的项目来说我总觉得bower有些难用。我们还需要模块化我们的源码文件，才能使其他人更容易开始项目。
+  </view>
+</view>
+<view class="item">
+  <view class="title">调试</view>
+  <view class="content">
+    我遇到的很多前端工程师都是不写测试的，于是我便把它单独地抽了出现。对于一个前端项目来说，正常情况下，我们要有单元测试、功能测试，还有要一些UI测试来验证页面间是否可以跳转。对于依赖于第三方服务的应用来说，还要有一个Mock的服务来方便我们测试。如果是前后端分离的项目，我们还需要有集成测试。
+  </view>
+</view>
+<view class="item">
+  <view class="title">测试</view>
+  <view class="content">
+    要对Web应用进行性能优化，可能不是一件容易的事，有时候我们还知道哪些地方可以优化。这时候人们就可以使用Yahoo的YSlow，或者我最喜欢的Google PageSpeed来检测页面的一些问题，如有没有开启GZip、有没有压缩、合并、Minify JS代码等等。我们还应该借助于NetWork这一类的工具，查看页面加载时，一些比较漫的资源文件，并对其进行优化。在一些情况下，我们还需要借助如Chrome的Timline、Profiel等工具来查看可以优化的地方。
+  </view>
+</view>
+<view class="item">
+  <view class="title">SEO</view>
+  <view class="content">
+    如果以搜索引擎作为流量来源，我们还需要考虑页面的内容，除非你用的是竞争排名。像Sitemap可能就不是我们考虑的内容，而我们还要考虑很多点。首先，我们需要保证页面的内容是对于搜索引擎是可见的，并且对应的页面还要有基本的Title、Description和Keyword。然后在一些关键的字体，如栏目标题等等可以用H2之类的大字的地方就不要放过。同时在页面设计的过程中，我们还需要考虑一些内部链接的建设。它即可以提供页面的可见度，又可以提高排名。最后，如果你是面向的是Google等支持结构化数据的搜索引擎，你还需要考虑一下MicroData
+    / MicroFormat这一类东西。
+  </view>
+</view>

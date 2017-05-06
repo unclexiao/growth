@@ -28,11 +28,30 @@ Page({
       }
     }
   },
-  clickHandler: function () {
-    wx.showToast({
-      title: '等你来开发喔',
-      icon: 'loading',
-      duration: 2000
-    })
+  clickHandler: function (e) {
+    var menu = e.currentTarget.dataset.menu;
+    switch (menu) {
+      case 'learn':
+        wx.navigateTo({
+          url: 'article/article'
+        });
+        break;
+      case 'project':
+        wx.navigateTo({
+          url: 'list/list?name=project'
+        });
+        break;
+      case 'tool':
+        wx.navigateTo({
+          url: 'list/list?name=tool'
+        });
+        break;
+      default:
+        wx.showToast({
+          title: '即将上线',
+          icon: 'loading',
+          duration: 2000
+        });
+    }
   }
 })

@@ -1,7 +1,9 @@
 /*** 定义字体为微软雅黑、苹方 ***/
 @import "common/weui.wxss";
+
 page {
   font-family: Helvetica, Tahoma, "Microsoft YaHei", "PingFang SC", sans-serif;
+  background-color: #ebebeb;
 }
 
 /*** 弹性布局 ***/
@@ -99,3 +101,5 @@ page {
 .icon-zhihu:before {
   content: "\e617";
 }
+
+

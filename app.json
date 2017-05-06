@@ -1,6 +1,9 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/index/article/article",
+    "pages/index/list/list",
+    "pages/index/panel/panel",
     "pages/about/about",
     "pages/tree/tree"
   ],

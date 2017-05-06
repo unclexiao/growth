@@ -1,0 +1,17 @@
+/* pages/index/panel/panel.wxss */
+
+.weui-media-box__desc {
+  -webkit-line-clamp: 4;
+}
+
+
+.weui-media-box {
+    margin: 20rpx 0;
+}
+.title{
+    font-weight: bold;
+}
+
+.weui-media-box__title {
+    white-space: normal;
+}

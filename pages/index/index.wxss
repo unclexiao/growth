@@ -1,8 +1,5 @@
 /* pages/index/index.wxss */
 
-page {
-  background-color: #ebebeb;
-}
 
 .container {
   padding: 80rpx 20rpx;
@@ -23,10 +20,7 @@ page {
 
 .item-hover {
   background-color: #ebebeb;
-  margin: 10rpx 20rpx;
-  height: 300rpx;
-  border: 1px solid rgba(153, 153, 153, 0.2);
-  box-shadow: 2px 2px 5px #999;
+
 }
 
 .txt {
