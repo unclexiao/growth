@@ -1,20 +1,24 @@
 // pages/index/list/list.js
 
-
+var that = null,
+  menuName = '',
+  request = require('../../../common/request.js');
 Page({
   data: {
-    name: 'project',
-    projectList: ['MVC', 'React'],
-    toolList: ['API设计', '后台', 'Chorme插件', '命令行工具', '文档', '图形工具', 'DebOps', '科学工具']
+    list: ''
   },
   onLoad: function (options) {
     // 页面初始化 options为页面跳转所带来的参数
-    this.setData({
-      name: options.name
-    })
+    that = this;
+    menuName = options.name;
   },
   onReady: function () {
     // 页面渲染完成
+    request.request(getMenuUrl(menuName), 'GET', {}, function (res) {
+      that.setData({
+        list: res.content
+      })
+    });
   },
   onShow: function () {
     // 页面显示
@@ -28,7 +32,26 @@ Page({
   clickHandler: function (e) {
     var key = e.currentTarget.dataset.key;
     wx.navigateTo({
-      url: '../panel/panel?key='+key
+      url: '../panel/panel?key=' + key
     });
   }
 })
+
+function getMenuUrl(name) {
+  var url = '';
+  switch (name) {
+    case 'timeline':
+      url = 'awesome/api/all.json';
+      break;
+    case 'project':
+      url = 'growth-in-action/api/all.json';
+      break;
+    case 'tool':
+      url = 'toolbox/api/all.json';
+      break;
+    case 'passage':
+      url = 'articles/api/all.json';
+      break;
+  }
+  return url;
+}

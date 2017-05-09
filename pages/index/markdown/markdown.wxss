@@ -1,0 +1,2 @@
+/* markdown.wxss */
+@import "../../common/wxParse/wxParse.wxss";

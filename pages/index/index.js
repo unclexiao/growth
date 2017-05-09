@@ -1,11 +1,16 @@
 // pages/index/index.js
+var that;
 Page({
-  data: {},
+  data: {
+    article: ''
+  },
   onLoad: function (options) {
     // 页面初始化 options为页面跳转所带来的参数
+    that = this;
   },
   onReady: function () {
     // 页面渲染完成
+
   },
   onShow: function () {
     // 页面显示
@@ -30,28 +35,8 @@ Page({
   },
   clickHandler: function (e) {
     var menu = e.currentTarget.dataset.menu;
-    switch (menu) {
-      case 'learn':
-        wx.navigateTo({
-          url: 'article/article'
-        });
-        break;
-      case 'project':
-        wx.navigateTo({
-          url: 'list/list?name=project'
-        });
-        break;
-      case 'tool':
-        wx.navigateTo({
-          url: 'list/list?name=tool'
-        });
-        break;
-      default:
-        wx.showToast({
-          title: '即将上线',
-          icon: 'loading',
-          duration: 2000
-        });
-    }
+    wx.navigateTo({
+      url: 'list/list?name=' + menu
+    });
   }
 })

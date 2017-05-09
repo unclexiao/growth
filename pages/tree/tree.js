@@ -2,7 +2,7 @@
 Page({
   data: {},
   onLoad: function (options) {
-    previrw();
+    //previrw();
   },
   onReady: function () {
     // 页面渲染完成
@@ -23,7 +23,7 @@ Page({
 
 function previrw() {
   wx.previewImage({
-    current: 'https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1494017528&di=854b379fb234a61fc96e06a6d84166b2&src=http://7xvjap.com1.z0.glb.clouddn.com/2016-03-05-01.jpg', // 当前显示图片的http链接
-    urls: ['https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1494017528&di=854b379fb234a61fc96e06a6d84166b2&src=http://7xvjap.com1.z0.glb.clouddn.com/2016-03-05-01.jpg'] // 需要预览的图片http链接列表
+    current: 'https://unclexiao.oschina.io/slash/img/front-end-tech-stack-2016.png', // 当前显示图片的http链接
+    urls: ['https://unclexiao.oschina.io/slash/img/front-end-tech-stack-2016.png'] // 需要预览的图片http链接列表
   })
 }
