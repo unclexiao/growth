@@ -19,7 +19,7 @@
 
 ## 安装
 1. 安装[微信开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)
-2. 关联[AppID](mp.weixin.qq.com)
+2. 关联[AppID](https://mp.weixin.qq.com)
 3. 导入文件夹
 
 ## 联系我
