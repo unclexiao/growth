@@ -12,6 +12,9 @@ Page({
     // 页面初始化 options为页面跳转所带来的参数
     that = this;
     menuName = options.name;
+    wx.setNavigationBarTitle({
+      title: getTitle(menuName)
+    })
   },
   onReady: function () {
     // 页面渲染完成
@@ -93,4 +96,23 @@ function getOptions(dataset) {
       obj = list[index].path;
   }
   return obj;
+}
+
+function getTitle(name) {
+  var title = 'Growth';
+  switch (name) {
+    case 'timeline':
+      title = '学习路线';
+      break;
+    case 'project':
+      title = '练手项目';
+      break;
+    case 'tool':
+      title = '高效工具';
+      break;
+    case 'passage':
+      title = '文章精选';
+      break;
+  }
+  return title;
 }
