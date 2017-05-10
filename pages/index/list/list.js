@@ -41,7 +41,7 @@ Page({
     } catch (e) {
     }
     wx.navigateTo({
-      url: getNavigateUrl(menuName)
+      url: getNavigateUrl(menuName) + '?name=' + menuName
     });
   }
 })

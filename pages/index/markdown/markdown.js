@@ -12,6 +12,7 @@ Page({
       request.request('articles/' + detail, 'GET', {}, function (res) {
         WxParse.wxParse('article', 'md', res, that, 5);
       })
+
     } catch (e) {
     }
 

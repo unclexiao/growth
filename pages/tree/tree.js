@@ -18,7 +18,19 @@ Page({
   },
   clickHandler: function (e) {
     previrw();
-  }
+  },
+  onShareAppMessage: function () {
+    return {
+      title: '解锁更多姿势~',
+      path: '/pages/tree/tree',
+      success: function (res) {
+        // 分享成功
+      },
+      fail: function (res) {
+        // 分享失败
+      }
+    }
+  },
 })
 
 function previrw() {
