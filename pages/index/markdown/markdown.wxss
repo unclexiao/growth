@@ -1,2 +1,7 @@
 /* markdown.wxss */
-@import "../../common/wxParse/wxParse.wxss";
+@import "../../../common/wxParse/wxParse.wxss";
+page{
+  padding: 20px 15px;
+  background: #fff;
+  box-sizing: border-box;
+}

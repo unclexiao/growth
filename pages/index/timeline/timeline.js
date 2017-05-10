@@ -1,15 +1,22 @@
 // pages/index/article/article.js
- var that = null, request = require('../../../common/request.js');
+var that = null,
+  detail = null,
+  request = require('../../../common/request.js');
 Page({
   data: {
-    passages:[]
+    passages: []
   },
   onLoad: function (options) {
     // 页面初始化 options为页面跳转所带来的参数
+    try {
+      var detail = wx.getStorageSync('options');
+      this.setData({ detail: detail });
+    } catch (e) {
+    }
   },
   onReady: function () {
     // 页面渲染完成
-   
+
   },
   onShow: function () {
     // 页面显示
