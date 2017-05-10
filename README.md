@@ -1,5 +1,4 @@
 # Growth - 陪你成为顶尖开发者
-
 ---
 <p align="center"><img src="http://unclexiao.oschina.io/slash/img/icon.png"></p>
 
@@ -16,7 +15,7 @@
 - 阅读在线文章和电子书
 
 ## 截图
-- ![image](http://unclexiao.oschina.io/slash/img/screenshot.png)
+![image](http://unclexiao.oschina.io/slash/img/screenshot.png)
 
 ## 安装
 1. 安装[微信开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)
