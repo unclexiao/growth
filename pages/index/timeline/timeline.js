@@ -10,7 +10,7 @@ Page({
     // 页面初始化 options为页面跳转所带来的参数
     try {
       var detail = wx.getStorageSync('options');
-      this.setData({ detail: detail });
+      this.setData({ detail: transform(detail) });
     } catch (e) {
     }
   },
@@ -28,3 +28,12 @@ Page({
     // 页面关闭
   }
 })
+
+function transform(detail) {
+  //TODO 这里需要修改成换行？
+  for (var i = 0; i < detail.length; i++) {
+    detail[i].description = detail[i].description.replace(/\<br\>|\<br\s?\/>/g, '\n');
+  }
+  return detail;
+
+}
