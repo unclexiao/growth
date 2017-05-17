@@ -1,4 +1,3 @@
-
 <!--pages/index/panel/panel.wxml-->
 <view class="weui-panel" wx:for="{{list}}">
   <view class="weui-panel__bd">
@@ -7,7 +6,7 @@
         <view class="title">{{item.name}}</view>
         <view class="">{{item.desc}}</view>
         <view class="weui-media-box__info">
-          <view class="weui-media-box__info__meta">{{item.link}}</view>
+          <view class="weui-media-box__info__meta" bindtap="setClipboardData" data-url="{{item.link}}">{{item.link}}</view>
         </view>
       </view>
     </view>

@@ -4,14 +4,19 @@
   -webkit-line-clamp: 4;
 }
 
-
 .weui-media-box {
-    margin: 20rpx 0;
+  margin: 20rpx 0;
 }
-.title{
-    font-weight: bold;
+
+.title {
+  font-weight: bold;
 }
 
 .weui-media-box__title {
-    white-space: normal;
+  white-space: normal;
+}
+
+.weui-media-box__info__meta {
+  color: #0366d6;
+  font-size: 35rpx;
 }
