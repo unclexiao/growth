@@ -34,14 +34,29 @@ Page({
   onUnload: function () {
     // 页面关闭
   },
+  onShareAppMessage: function () {
+    return {
+      title: getTitle(menuName),
+      path: '/pages/index/list/list',
+      success: function (res) {
+        // 分享成功
+      },
+      fail: function (res) {
+        // 分享失败
+      }
+    }
+  },
   clickHandler: function (e) {
     try {
       //参数无法传递参数，故而使用本地存储 
       wx.setStorageSync('options', getOptions(e.currentTarget.dataset));
     } catch (e) {
     }
+
+    // 传递 subTitle 作为详情页 title 一部分
+    var subTitle = e.currentTarget.dataset.title
     wx.navigateTo({
-      url: getNavigateUrl(menuName) + '?name=' + menuName
+      url: getNavigateUrl(menuName) + '?name=' + menuName + '&subTitle=' + subTitle
     });
   }
 })
