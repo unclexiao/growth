@@ -36,5 +36,15 @@
         <view class="weui-cell__ft">http://growth.ren/</view>
       </view>
     </view>
+
+    <view class="weui-cells__title">联系我们</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">在线客服</view>
+        <view class="weui-cell__ft">
+          <contact-button  size="20" session-from="weapp"> </contact-button>
+        </view>
+      </view>
+    </view>
   </view>
 </view>
