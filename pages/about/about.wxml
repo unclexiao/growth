@@ -25,7 +25,7 @@
       </view>
       <view class="weui-cell">
         <view class="weui-cell__bd">QQ群</view>
-        <view class="weui-cell__ft">529600495</view>
+        <view class="weui-cell__ft" bindtap="setClipboardData" data-number="529600394">529600394</view>
       </view>
       <view class="weui-cell">
         <view class="weui-cell__bd">论坛</view>
@@ -42,7 +42,7 @@
       <view class="weui-cell">
         <view class="weui-cell__bd">在线客服</view>
         <view class="weui-cell__ft">
-          <contact-button  size="20" session-from="weapp"> </contact-button>
+          <contact-button size="20" session-from="weapp"> </contact-button>
         </view>
       </view>
     </view>
