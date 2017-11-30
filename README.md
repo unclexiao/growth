@@ -1,6 +1,6 @@
 # Growth - 陪你成为顶尖开发者
----
-<p align="center"><img src="http://unclexiao.oschina.io/slash/img/icon.png"></p>
+
+![image](/images/slash-qr.jpg)
 
 [Growth](https://github.com/phodal/growth) 是一款专注于Web开发者成长的应用，涵盖Web开发的流程及技术栈，Web开发的学习路线、成长衡量等各方面。
 
@@ -15,7 +15,13 @@
 - 阅读在线文章和电子书
 
 ## 截图
-![image](http://unclexiao.oschina.io/slash/img/screenshot.png)
+![image](/images/slash-home.png)
+
+![image](/images/slash-message.png)
+
+![image](/images/slash-about.png)
+
+![image](/images/slash-passage.png)
 
 ## 安装
 1. 安装[微信开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)
@@ -23,4 +29,5 @@
 3. 导入文件夹
 
 ## 联系我
-![image](http://unclexiao.oschina.io/slash/img/unclexiao.jpg)
+**因数据上报涉及到敏感信息，新版的源码暂不公开**。如有疑惑，请联系"趣你的肖蜀黍"公众号：
+![image](http://www.unclexiao.com/cdn/temp/unclexiao.jpg)
