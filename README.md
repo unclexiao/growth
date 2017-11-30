@@ -15,13 +15,13 @@
 - 阅读在线文章和电子书
 
 ## 截图
-![image](/images/slash-home.png)
+![image](http://www.unclexiao.com/cdn/temp/slash-home.png)
 
-![image](/images/slash-message.png)
+![image](http://www.unclexiao.com/cdn/temp/slash-message.png)
 
-![image](/images/slash-about.png)
+![image](http://www.unclexiao.com/cdn/temp/slash-about.png)
 
-![image](/images/slash-passage.png)
+![image](http://www.unclexiao.com/cdn/temp/slash-passage.png)
 
 ## 安装
 1. 安装[微信开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)
@@ -30,4 +30,5 @@
 
 ## 联系我
 **因数据上报涉及到敏感信息，新版的源码暂不公开**。如有疑惑，请联系"趣你的肖蜀黍"公众号：
+
 ![image](http://www.unclexiao.com/cdn/temp/unclexiao.jpg)
